@@ -1,3 +1,4 @@
+
 def nyc_pigeon_organizer (data)
  data_by_name = {}
 # loop through the hash. get the outer keys and the outer values. the outer value is another hash.
@@ -15,11 +16,13 @@ end
 #if the category doesnt exist in the new hash, add it in and set it equal to an empty array
 if data_by_name[name][color_gender_lives] == nil
 data_by_name[name][color_gender_lives] = []
-data_by_name[name][color_gender_lives].push(innerkeys.to_s)
+
 end
+data_by_name[name][color_gender_lives].push(innerkeys.to_s)
   end
 
  end
 end
 data_by_name
-end
+end 
+
