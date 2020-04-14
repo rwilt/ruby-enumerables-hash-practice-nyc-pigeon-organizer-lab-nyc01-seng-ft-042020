@@ -24,5 +24,4 @@ data_by_name[name][color_gender_lives].push(innerkeys.to_s)
  end
 end
 data_by_name
-end 
-
+end
